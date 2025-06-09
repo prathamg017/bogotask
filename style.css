@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #f25c8d;
+  border-bottom: 2px solid #ffd1df;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.box {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.box.selected {
+  border-color: #f25c8d;
+  background: #fff0f5;
+}
+
+.box .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+input[type="radio"] {
+  transform: scale(1.2);
+  accent-color: #f25c8d;
+}
+
+.unit {
+  font-weight: bold;
+}
+
+.badge {
+  background: #f25c8d;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.price {
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.subtext {
+  font-size: 12px;
+  color: #999;
+  text-decoration: line-through;
+  margin-top: 4px;
+}
+
+.tag {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  background: #f25c8d;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.box-content {
+  margin-top: 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+.box-content label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  margin: 0 6px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.delivery {
+  color: #f25c8d;
+  font-weight: bold;
+  text-align: left;
+}
+
+.total {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 6px;
+}
+
+.add-to-cart {
+  width: 100%;
+  background: #f25c8d;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  margin-top: 10px;
+}
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.summary-row .delivery {
+  color: #f25c8d;
+  font-weight: bold;
+}
+
+.summary-row .total {
+  font-weight: bold;
+  color: #333;
+}
+
